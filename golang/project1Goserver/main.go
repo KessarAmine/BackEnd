@@ -23,7 +23,7 @@ func form_route(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "ParseForm error: %v\n", error)
 		return
 	}
-	fmt.Fprintf(w, "Post request done")
+	fmt.Fprintf(w, "Post request done\n")
 	name := r.FormValue("name")
 	adresse := r.FormValue("adresse")
 	fmt.Fprintf(w, "name = %s\nadresse= %s\n", name, adresse)

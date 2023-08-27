@@ -1,0 +1,4 @@
+in this module we learnd how to set up different routes to the server or basic normal endpoints
+we learned how to map the server to some static html files
+we learned about the http and ftm and log packages
+we made a server running with simple get and post requests
